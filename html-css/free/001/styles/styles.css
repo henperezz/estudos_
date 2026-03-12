@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  background-color: crimson;
+  padding: 15px;
+  text-align: right;
+}
+
+.tituloInicial {
+  color: rgb(29, 4, 87);
+  font-size: 40px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 30px;
+}
+
+.tituloGeral {
+  color: chocolate;
+  font-size: 30px;
+  font-family: "Gill Sans", sans-serif;
+  padding: 0 10px;
+  padding-bottom: 5px;
+}
+
+.textoGeralListas {
+  color: black;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: crimson;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.titulosListas {
+  color: chocolate;
+  font-size: 20px;
+  font-family: "Gill Sans", sans-serif;
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+
+.listas {
+  color: black;
+  padding: 0 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.tituloSobre {
+  color: rgb(29, 4, 87);
+  font-size: 40px;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.textoSobre {
+  color: black;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.logo {
+  width: 350px;
+  max-width: auto;
+  float: left;
+}
+
+.tituloContato {
+  color: rgb(29, 4, 87);
+  font-size: 40px;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.textoContato {
+  color: black;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.enderecoContato {
+  color: black;
+  padding: 0 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
