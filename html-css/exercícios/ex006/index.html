@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de semântica</title>
+    <style>
+        body {
+            background-color: #5252e6
+        }
+        mark {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de tags semânticas</h1>
+    <p> 
+        Eu moro na 
+        <adress>Rua dos coquinhos, 123</adress> <!-- Endereço-->
+         e sou muito 
+        <strong>feliz</strong> <!-- Da sentido de frase forte -->
+         por estar
+        morando 
+        <em>lá!!!!</em> <!-- Da ênfase a palavra -->
+        mas creio que me 
+        <mark>mudarei logo</mark> <!--  Destaca a palvra/frase -->
+        <small>por conta</small> <!-- Diminui o tamanho da fonte, deixando a pequena -->
+         de um
+        <del>do trabalho</del> <!-- Riscado, indicando que deve ser desconsiderado -->
+         que 
+         <ins>me fez ganhar dinheiro</ins> <!-- Sublinhado, indicando que deve ser lido com atenção -->
+         e
+        <ins>porem odeio meu trabalho</ins>
+        pois trabalho com programação, eis um exemplo:
+        <pre>
+            <code> <!-- Código de exemplo, onde o <pre> é a formatação do código e <code> faz as fontes ficarem monoespaçadas-->
+def batato():
+    print("batata inglesa")
+
+
+batato()
+            </code>
+        </pre>
+        <p>Escrito em <abbr title="Linguagem de programação">python</abbr> para criar, principalmente, o back-end de um site.</p> <!-- <abbr> adiciona um significado a palavra ao passarem o mouse por cima dela dentro do site-->
+        
+    </p>
+</body>
+</html>
