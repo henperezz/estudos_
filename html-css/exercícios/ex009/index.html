@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagens dinâmicas</title>
+  </head>
+  <body>
+    <!---->
+    <picture>
+      <source
+        media="(max-width: 720px)"
+        srcset="assets/fireforce.jpg"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="assets/icons8-ultra-ball-48.png"
+        type="image/png"
+      />
+      <img src="assets/bostonceltics.png" alt="Logo Bostão" />
+    </picture>
+
+    <!--A tag audio serve para conseguirmos colocar audios dentro do site, com um player próprio, com o 'controls', e 'loop' para o audio sempre tocar quando acabar. preload="metadata" é para carregar as informações do áudio assim q o site carregar-->
+    <audio preload="metadata" controls loop>
+      <source src="assets/hysteria-muse.mp3" type="audio/mpeg" />
+      <source src="#" type="audio/" />
+    </audio>
+  </body>
+</html>
