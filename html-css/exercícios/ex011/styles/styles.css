@@ -1,0 +1,15 @@
+body {
+  background-color: lightgoldenrodyellow; /*Adiciona a cor para o fundo do site*/
+  color: chocolate; /*Define a cor do texto dentro do site (na área body, se fosse em outra, definiria a cor da tag ou da respectiva classe)*/
+  font-size: 12pt; /*Define o tamanho da fonte de texto*/
+  font-family: Arial; /*Define qual fonte o texto usará*/
+}
+
+h1 {
+  color: brown; /*Define a cor do texto apenas da tag h1, ou sejam toda tag h1 terá a cor marrom*/
+}
+
+a {
+  color: brown; /*Define a cor do texto apenas na tag a, todo texto dentro da tag terá a cor marrom*/
+  text-decoration: none; /*Define que, em um link, não haja aquela linha embaixo, deixando como texto puro sem decoração*/
+}
