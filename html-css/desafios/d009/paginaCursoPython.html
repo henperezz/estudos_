@@ -9,57 +9,46 @@
       href="assets/tottenham_hotspur_17957.ico"
       type="image/x-icon"
     />
-
-    <style>
-      body {
-        background-color: rgb(30, 28, 28);
-      }
-
-      h1 {
-        color: white;
-        text-align: center;
-      }
-      a {
-        text-decoration: none;
-        color: white;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <h1>Curso de Python</h1>
+    <h1 class="tituloPrincipal">Curso de Python</h1>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/S9uPNppGsGo?si=NmZ0a0wpqUNWK6h5"
-      title="YouTube video player"
-      frameborder="0"
-      allow="
-        accelerometer;
-        autoplay;
-        clipboard-write;
-        encrypted-media;
-        gyroscope;
-        picture-in-picture;
-        web-share;
-      "
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
+    <section class="container">
+      <iframe
+        class="videoYoutube"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/S9uPNppGsGo?si=NmZ0a0wpqUNWK6h5"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
 
-    <br />
+      <div class="botoesInterativos">
+        <p class="botaoPlaylist">
+          <a
+            href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6"
+            target="_blank"
+            rel="external"
+            >Veja o curso completo</a
+          >
+        </p>
 
-    <a
-      href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6"
-      target="_blank"
-      rel="external"
-      >Veja o curso completo</a
-    >
-
-    <br />
-
-    <a href="index.html" target="_self" rel="prev"
-      ><img src="assets/voltar.png" alt="Voltar"
-    /></a>
+        <a href="index.html" target="_self" rel="prev"
+          ><img class="botaoVoltar" src="assets/voltar.png" alt="Voltar"
+        /></a>
+      </div>
+    </section>
   </body>
 </html>
